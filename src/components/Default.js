@@ -9,7 +9,7 @@ export default class Default extends Component {
 
           <div className="central-body">
             <img className="image-404" src="http://salehriaz.com/404Page/img/404.svg" width="300px" />
-            <a href="#" className="btn-go-home" target="_blank">GO BACK HOME</a>
+            <a href="https://magic-world.herokuapp.com/" className="btn-go-home" target="_blank">GO BACK HOME</a>
           </div>
           <div className="objects">
             <img className="object_rocket" src="http://salehriaz.com/404Page/img/rocket.svg" width="40px" />
