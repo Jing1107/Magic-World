@@ -8,19 +8,13 @@ import slytherin from './img/slytherin.jpg';
 import Hufflepuff from './img/Hufflepuff.jpg';
 import Ravenclaw from './img/Ravenclaw-1.jpg';
 
-import soundFile from './img/BGM.mp3';
+import { render } from 'react-dom';
+import BGM from 'react-awesome-snippets-bgm';
+import bgmp3 from './img/BGM.mp3';
+
 
 
 export default class Home extends Component {
-  // constructor(){
-  //  super();
-  //  this.onPlay = this.onPlay.bind(this);
-  //  this.sound = new Audio(soundFile);
-  // }
-  //
-  //  onPlay(){
-  //    this.sound.play();
-  //  }
 
   render() {
     return (
@@ -42,6 +36,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+        
       </DivWrapper>
     );
   }
