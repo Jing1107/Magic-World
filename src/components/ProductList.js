@@ -5,7 +5,10 @@ import {storeProducts} from '../data';
 import {ProductConsumer} from '../context';
 import styled from 'styled-components';
 
+// import soundFile from './img/BGM.mp3';
+
 export default class ProductList extends Component {
+
   state = {
     products: storeProducts
   };

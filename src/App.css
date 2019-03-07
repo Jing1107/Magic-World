@@ -7,8 +7,9 @@
 }
 
 body {
+  /* background: linear-gradient(to right, #bdc3c7, #2c3e50); */
   font-family: "Oswald", sans-serif !important;
-  background: var(--mainwhite) !important;
+
   color: var(--mainDark) !important;
 }
 
@@ -48,4 +49,8 @@ body {
 
 .abt {
   margin-top: 8rem !important;
+}
+
+.abb {
+  margin-top: 10rem !important;
 }
