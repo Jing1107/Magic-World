@@ -3,6 +3,7 @@ import Product from './Product';
 import Title from './Title';
 import {storeProducts} from '../data';
 import {ProductConsumer} from '../context';
+import styled from 'styled-components';
 
 export default class ProductList extends Component {
   state = {
